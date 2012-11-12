@@ -1,3 +1,6 @@
+#Kevin Moons 
+#Opgave 2
+
 require 'matrix'
 
 def md()
@@ -10,5 +13,7 @@ def mt()
 	m.transpose
 end
 
+print "Determinant: "
 puts md()
+print "Getransponeerd: "
 puts mt()
